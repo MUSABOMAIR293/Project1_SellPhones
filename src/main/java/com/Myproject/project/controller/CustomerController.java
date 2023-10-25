@@ -31,7 +31,7 @@ public class CustomerController {
     }
     @DeleteMapping("delete/{id_user}")
     public String deletCustomer(@PathVariable Integer id_user ){
-        return  customerService.deletAdmin(id_user);
+        return  customerService.deletCusomer(id_user);
     }
 
     @GetMapping("/get-id")

@@ -40,7 +40,7 @@ public class CustomerService implements com.Myproject.project.Service.interfaces
 
 
     @Override
-    public String deletAdmin(Integer id_user) {
+    public String deletCusomer(Integer id_user) {
         repositoryCustomer.deleteById(id_user);
         return "Record Deleted";
     }

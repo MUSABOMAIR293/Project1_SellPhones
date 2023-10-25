@@ -18,6 +18,6 @@ public interface CustomerService {
 
     public Customer findByIdCustomer(Integer id_user);
 
-    public String  deletAdmin(Integer id_user);
+    public String  deletCusomer(Integer id_user);
     List<Phone> showAllPhone();
 }
