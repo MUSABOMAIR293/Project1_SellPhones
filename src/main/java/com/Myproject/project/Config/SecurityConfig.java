@@ -2,8 +2,6 @@ package com.Myproject.project.Config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.config.annotation.web.WebSecurityConfigurer;
-import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -29,5 +27,6 @@ public class SecurityConfig  {
 
         return new InMemoryUserDetailsManager(user, admin);
     }
+
 
 }
